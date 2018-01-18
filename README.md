@@ -9,9 +9,19 @@ Open the URL 'chrome://extensions/' on Google Chrome.
 - Step 4:
 Turn on the developer button and load the project which you downloaded just now.
 - Step 5:
-Open the optional page to input your data which need to submit automatically.
+Open the option page to input your data which need to submit automatically.
 - Step 6:
 Save your options and reload your page([Simple Page](https://github.com/login)), and the script will run at background.
+
+## A tip
+- The box of name must be the name of input element in page.
+### Simple
+```
+<input id="u_user" name="username" type="text"/>
+Which you need to input the "username" on the left in the option page,and the value you want to submit on the right.
+<input id="u_user" name="l_submit" type="submit"/>
+Which you need to input the "l_submit" on the last lable in the option page.
+```
 
 ## A bug
 - If the page load slowly, the monitor to run on page will failed because of the timer will reload the page on 200 ms.
