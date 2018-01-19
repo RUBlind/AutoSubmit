@@ -28,5 +28,6 @@ Which you need to input the "l_submit" on the last lable in the option page.
 
 ## Some suggestions for developer
 - The extension need a ICON to beautify.
+- The latest version only support the name.But, somtimes the submit button only have a id.
 - The information which need to submit maybe more than two.
 - Sometimes,we need to save different information to submit in different page.
