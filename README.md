@@ -24,7 +24,7 @@ Which you need to input the "l_submit" on the last lable in the option page.
 ```
 # A bug
 - If the page load slowly, the monitor to run on page will failed because of the timer will reload the page on 200 ms.
-# 后期任务需求
+# 后期开发任务需求
 - [ ] 为插件设计一个好看的图标
 - [ ] 修复由于时间计时器造成的BUG（等待页面加载完成后，检索提交按钮是否存在，不存在就直接刷新，删除原有计时器功能）
 - [ ] 在配置页面和实际查询功能中，改用CSS选择器作为关键词
