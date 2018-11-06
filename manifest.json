@@ -1,23 +1,31 @@
 {
   "name": "表单自动提交助手",
   "manifest_version": 2,
-  "version": "1.1",
-  "description": "一款自动填写表单并提交的工具，支持网页标签的实时监控",
-  "permissions": ["storage","contextMenus","tabs"],
-  "content_scripts":
-   [
-     {
-       "matches": ["http://*/*","https://*/*"],
-       "js": ["JS/login.js"]
-     }
-   ],
-  "background":
-  {
-    "scripts": ["JS/background.js"]
+  "version": "0.1",
+  "description": "可针对多个网站配置自动提交的内容，并支持网站的实时监控",
+  "permissions": [
+    "storage",
+    "contextMenus",
+    "tabs"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "Resource/JS/login.js"
+      ]
+    }
+  ],
+  "background": {
+    "scripts": [
+      "Resource/JS/background.js"
+    ]
   },
-  "options_ui":
-   {
-     "page": "options.html",
-     "chrome_style": true
-   }
+  "options_ui": {
+    "page": "options.html",
+    "chrome_style": true
+  }
 }

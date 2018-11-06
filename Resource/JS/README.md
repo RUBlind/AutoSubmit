@@ -1,0 +1,1 @@
+A place to put JavaScript file.
