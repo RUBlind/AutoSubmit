@@ -33,4 +33,4 @@ Which you need to input the "l_submit" on the last lable in the option page.
 - [ ] 配置页面中每个网址可点击向下展开显示配置内容
 - [ ] 网址列表拥有增加修改删除的功能
 - [ ] 网址配置拥有增加修改删除的功能
-- [ ] 指定网址展开后可查看所设配置内容
+- [ ] 指定网址展开后可查看对应的配置内容
