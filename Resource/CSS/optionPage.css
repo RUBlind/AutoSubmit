@@ -1,0 +1,11 @@
+table {
+    margin: 0 auto;
+}
+
+table td {
+    text-align: center;
+}
+
+button {
+    width: 100%;
+}
