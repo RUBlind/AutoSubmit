@@ -16,6 +16,7 @@ chrome.contextMenus.create({
 });
 
 var f_timer;
+
 function autoRefresh() {
     clearInterval(f_timer);
     f_timer = setInterval(function () {
