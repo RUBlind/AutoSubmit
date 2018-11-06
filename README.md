@@ -13,7 +13,6 @@ Turn on the developer button and load the project which you downloaded just now.
 Open the option page to input your data which need to submit automatically.
 - Step 6:
 Save your options and reload your page([Simple Page](https://github.com/login)), and the script will run at background.
-
 # A tip
 - The box of name must be the name of input element in page.
 ## Simple
@@ -23,10 +22,8 @@ Which you need to input the "username" on the left in the option page,and the va
 <input id="u_user" name="l_submit" type="submit"/>
 Which you need to input the "l_submit" on the last lable in the option page.
 ```
-
 # A bug
 - If the page load slowly, the monitor to run on page will failed because of the timer will reload the page on 200 ms.
-
 # 后期任务需求
 - [ ] 为插件设计一个好看的图标
 - [ ] 修复由于时间计时器造成的BUG（等待页面加载完成后，检索提交按钮是否存在，不存在就直接刷新，删除原有计时器功能）
