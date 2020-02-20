@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="Resource/CSS/optionPage.css">
-    <title>配置您的登录信息 / Configure your login info</title>
+    <title>Настройка параметров входа</title>
   </head>
 
   <body>
@@ -14,31 +14,39 @@
         <table>
           <thead>
             <tr>
-              <td class="subtitle">输入框名称</td>
-              <td class="subtitle">输入框内容</td>
+              <td class="subtitle">Имя поля</td>
+              <td class="subtitle">Значение поля</td>
             </tr>
           </thead>
           <tbody>
-            <tr>
+            <tr id="params">
               <td><input id="name_1" type="text" /></td>
               <td><input id="value_1" type="text" /></td>
             </tr>
-            <tr>
+            <tr id="params">
               <td><input id="name_2" type="text" /></td>
               <td><input id="value_2" type="text" /></td>
             </tr>
+            <tr id="params">
+              <td><input id="name_3" type="text" /></td>
+              <td><input id="value_3" type="text" /></td>
+            </tr>
             <tr>
-              <td class="subtitle">提交按钮名称</td>
+              <td class="subtitle">Домен авторизации</td>
+              <td><input id="value_domain" type="text" /></td>
+            </tr>
+            <tr>
+              <td class="subtitle">Имя кнопки "Отправить"</td>
               <td><input id="value_submit" type="text" /></td>
             </tr>
             <tr>
               <td colspan="2">
-                <button type="button" id="clear_btn">清除配置信息</button>
+                <button type="button" id="clear_btn">Очистить конфигурацию</button>
               </td>
             </tr>
             <tr>
               <td colspan="2">
-                <button type="button" id="save_btn">保存配置信息</button>
+                <button type="button" id="save_btn">Сохранение конфигурации</button>
               </td>
             </tr>
           </tbody>

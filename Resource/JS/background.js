@@ -1,6 +1,6 @@
 ﻿chrome.contextMenus.create({
     type: 'normal',
-    title: '开始网页监控',
+    title: 'Начать мониторинг веб-страниц',
     contexts: ['page'],
     onclick: function () {
         autoRefresh();
@@ -8,7 +8,7 @@
 });
 chrome.contextMenus.create({
     type: 'normal',
-    title: '停止网页监控',
+    title: 'Остановить мониторинг веб-страниц',
     contexts: ['page'],
     onclick: function () {
         stopRefresh();

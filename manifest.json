@@ -1,8 +1,8 @@
-{
-  "name": "表单自动提交助手",
+﻿{
+  "name": "Автологин",
   "manifest_version": 2,
   "version": "0.1",
-  "description": "可针对多个网站配置自动提交的内容，并支持网站的实时监控",
+  "description": "Настройка автовхода",
   "permissions": [
     "storage",
     "contextMenus",
