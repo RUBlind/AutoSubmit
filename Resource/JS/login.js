@@ -21,7 +21,7 @@ function login() {
 }
 
 login();
-chrome.extension.onRequest.addListener(
+chrome.runtime.onMessage.addListener(
     function (request, sender, sendResponse) {
         chrome.storage.local.get(['btnName'], function (valArray) {
             if (document.getElementsByName(valArray.btnName)[0] === undefined) {
@@ -31,5 +31,6 @@ chrome.extension.onRequest.addListener(
                 login();
             }
         });
+        return true;
     }
 );
