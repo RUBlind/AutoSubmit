@@ -1,12 +1,12 @@
-﻿{
+{
   "name": "Автологин",
-  "manifest_version": 2,
-  "version": "0.1",
+  "manifest_version": 3,
+  "version": "0.2",
+  "minimum_chrome_version": "120",
   "description": "Настройка автовхода",
   "permissions": [
     "storage",
-    "contextMenus",
-    "tabs"
+    "contextMenus"
   ],
   "content_scripts": [
     {
@@ -20,12 +20,9 @@
     }
   ],
   "background": {
-    "scripts": [
-      "Resource/JS/background.js"
-    ]
+    "service_worker": "Resource/JS/background.js"
   },
   "options_ui": {
-    "page": "options.html",
-    "chrome_style": true
+    "page": "options.html"
   }
 }
